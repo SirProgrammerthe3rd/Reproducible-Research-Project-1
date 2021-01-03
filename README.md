@@ -12,11 +12,11 @@ The data for this assignment can be downloaded from the course web site: [Activi
 
 The variables included in this dataset are:
 
-⋅⋅*steps: Number of steps taking in a 5-minute interval (missing values are coded as NA)
+⋅⋅* steps: Number of steps taking in a 5-minute interval (missing values are coded as NA)
 
-⋅⋅*date: The date on which the measurement was taken in YYYY-MM-DD format
+⋅⋅* date: The date on which the measurement was taken in YYYY-MM-DD format
 
-⋅⋅*interval: Identifier for the 5-minute interval in which measurement was taken
+⋅⋅* interval: Identifier for the 5-minute interval in which measurement was taken
 
 The dataset is stored in a comma-separated-value (CSV) file and there are a total of 17,568 observations in this dataset.
 
@@ -28,48 +28,49 @@ Throughout your report make sure you always include the code that you used to ge
 
 For the plotting aspects of this assignment, feel free to use any plotting system in R (i.e., base, lattice, ggplot2)
 
-⋅⋅*Fork/clone the GitHub repository created for this assignment. You will submit this assignment by pushing your completed files into your forked repository on GitHub. The assignment submission will consist of the URL to your GitHub repository and the SHA-1 commit ID for your repository state.
+⋅⋅* Fork/clone the GitHub repository created for this assignment. You will submit this assignment by pushing your completed files into your forked repository on GitHub. The assignment submission will consist of the URL to your GitHub repository and the SHA-1 commit ID for your repository state.
 
 NOTE: The GitHub repository also contains the dataset for the assignment so you do not have to download the data separately.
 
-⋅⋅*Loading and preprocessing the data - show any code that is needed to
+⋅⋅* Loading and preprocessing the data - show any code that is needed to
 
-⋅⋅*Load the data (i.e. read.csv())
+⋅⋅* Load the data (i.e. read.csv())
 
-⋅⋅*Process/transform the data (if necessary) into a format suitable for your analysis
+⋅⋅* Process/transform the data (if necessary) into a format suitable for your analysis
 
 ## What is mean total number of steps taken per day?
 
 For this part of the assignment, you can ignore the missing values in the dataset.
 
-⋅⋅*Make a histogram of the total number of steps taken each day
+⋅⋅* Make a histogram of the total number of steps taken each day
 
-⋅⋅*Calculate and report the mean and median total number of steps taken per day
+⋅⋅* Calculate and report the mean and median total number of steps taken per day
 
-⋅⋅*What is the average daily activity pattern?
-⋅⋅*Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
+⋅⋅* What is the average daily activity pattern?
 
-⋅⋅*Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
+⋅⋅* Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
+
+⋅⋅* Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ## Imputing missing values
 
 Note that there are a number of days/intervals where there are missing values (coded as NA). The presence of missing days may introduce bias into some calculations or summaries of the data.
 
-⋅⋅*Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
+⋅⋅* Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
 
-⋅⋅*Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
+⋅⋅* Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.
 
-⋅⋅*Create a new dataset that is equal to the original dataset but with the missing data filled in.
+⋅⋅* Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
-⋅⋅*Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
+⋅⋅* Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
 
-⋅⋅*Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
+⋅⋅* Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
-⋅⋅*Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using simulated data:
+⋅⋅* Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using simulated data:
 
 Sample panel plot
 
@@ -79,21 +80,21 @@ Your plot will look different from the one above because you will be using the a
 
 To submit the assignment:
 
-⋅⋅*Commit your completed PA1_template.Rmd file to the master branch of your git repository (you should already be on the master branch unless you created new ones)
+⋅⋅* Commit your completed PA1_template.Rmd file to the master branch of your git repository (you should already be on the master branch unless you created new ones)
 
-⋅⋅*Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with the knit2html() function in R (from the knitr package)
+⋅⋅* Commit your PA1_template.md and PA1_template.html files produced by processing your R markdown file with the knit2html() function in R (from the knitr package)
 
-⋅⋅*If your document has figures included (it should) then they should have been placed in the figures/ directory by default (unless you overrode the default). Add and commit the figures/ directory to your git repository.
+⋅⋅* If your document has figures included (it should) then they should have been placed in the figures/ directory by default (unless you overrode the default). Add and commit the figures/ directory to your git repository.
 
-⋅⋅*Push your master branch to GitHub.
+⋅⋅* Push your master branch to GitHub.
 
-⋅⋅*Submit the URL to your GitHub repository for this assignment on the course web site.
+⋅⋅* Submit the URL to your GitHub repository for this assignment on the course web site.
 
-⋅⋅*In addition to submitting the URL for your GitHub repository, you will need to submit the 40 character SHA-1 hash (as string of numbers from 0-9 and letters from a-f) that identifies the repository commit that contains the version of the files you want to submit. You can do this in GitHub by doing the following:
+⋅⋅* In addition to submitting the URL for your GitHub repository, you will need to submit the 40 character SHA-1 hash (as string of numbers from 0-9 and letters from a-f) that identifies the repository commit that contains the version of the files you want to submit. You can do this in GitHub by doing the following:
 
-⋅⋅*Go into your GitHub repository web page for this assignment
+⋅⋅* Go into your GitHub repository web page for this assignment
 
-⋅⋅*Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10 commits to this repository, the link should say "10 commits".
+⋅⋅* Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10 commits to this repository, the link should say "10 commits".
 
 You will see a list of commits that you have made to this repository. The most recent commit is at the very top. If this represents the version of the files you want to submit, then just click the "copy to clipboard" button on the right hand side that should appear when you hover over the SHA-1 hash. Paste this SHA-1 hash into the course web site when you submit your assignment. If you don't want to use the most recent commit, then go down and find the commit you want and copy the SHA-1 hash.
 
